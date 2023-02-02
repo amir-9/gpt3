@@ -10,6 +10,7 @@
 
 .header__img {
   flex: 1;
+  margin-top: -80px;
 }
 
 .header__img img {
@@ -32,4 +33,50 @@
   line-height: 27px;
   color: var(--color-text);
   margin-bottom: 2rem;
+  max-width: 550px;
+}
+.header__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header__input {
+  flex: 3;
+  border: none;
+  background: #052d56;
+  border-radius: 5px 0px 0px 5px;
+  height: 73px;
+  padding-left: 1rem;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+
+.header__form__button {
+  flex: 1.25;
+  height: 73px;
+  border-radius: 0px 5px 5px 0px;
+  border: none;
+  outline: none;
+}
+
+.header__people {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.header__people-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+}
+
+.header__people-image {
+  width: 181.79px;
+  height: 38px;
 }

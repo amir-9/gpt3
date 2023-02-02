@@ -12,3 +12,13 @@
   filter: blur(282px);
   z-index: 0;
 }
+.header-background-gradient-2 {
+  position: absolute;
+  width: 701px;
+  height: 496px;
+  left: 1127px;
+  top: 500px;
+
+  background: #072d56;
+  filter: blur(282px);
+}

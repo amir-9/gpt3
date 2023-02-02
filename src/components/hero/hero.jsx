@@ -1,5 +1,7 @@
 import "./hero.css";
+import { Button } from "../";
 import ai from "../../assets/ai.png";
+import people from "../../assets/people.png";
 
 const Hero = () => (
   <section className="header__hero section__padding">
@@ -12,8 +14,20 @@ const Hero = () => (
         all exercise blessing. Indulgence way everything joy alteration
         boisterous the attachment. Party we years to order allow asked of.
       </p>
-      <div>
-        <input type="text" />
+      <form
+        className="header__form"
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
+      >
+        <input type="text" className="header__input" />
+        <Button text="Get Started" className="header__form__button" />
+      </form>
+      <div className="header__people">
+        <img className="header__people-image" src={people} alt="people" />
+        <p className="header__people-text">
+          1,600 people requested access a visit in last 24 hours
+        </p>
       </div>
     </div>
     <div className="header__img">
