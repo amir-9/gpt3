@@ -1,0 +1,14 @@
+.header {
+  position: relative;
+}
+
+.header-background-gradient {
+  position: absolute;
+  width: 1013px;
+  height: 1013px;
+  left: -336px;
+  top: -305px;
+  background: #002853;
+  filter: blur(282px);
+  z-index: 0;
+}

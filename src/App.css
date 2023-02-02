@@ -1,0 +1,51 @@
+body {
+  background: var(--color-bg);
+  font-family: var(--font-family);
+  color: var(--color-white);
+  overflow-x: hidden;
+}
+
+.text-gradient {
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+@media screen and (max-width: 950px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .section__padding {
+    padding: 2rem 4rem;
+  }
+
+  .section__margin {
+    margin: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 2rem;
+  }
+
+  .section__margin {
+    margin: 2rem;
+  }
+}
