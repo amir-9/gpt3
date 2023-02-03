@@ -1,11 +1,14 @@
 import "./App.css";
-import { Header } from "./containers";
-import { Brands } from "./components";
-import { WhatIsGpt } from "./containers";
-import { Future } from "./containers";
-import { RequestAccess } from "./containers";
-import { Blog } from "./containers";
-import { Footer } from "./containers";
+import {
+  Header,
+  WhatIsGpt,
+  Future,
+  RequestAccess,
+  Blog,
+  Footer,
+} from "./containers";
+
+import { Brands, CTA } from "./components";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
       <Header />
       <Brands />
       <WhatIsGpt />
+      <Future />
+      <RequestAccess />
+      <CTA />
     </div>
   );
 }
