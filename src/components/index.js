@@ -4,3 +4,4 @@ export { default as Button } from "./button/button";
 export { default as Brands } from "./brands/brands";
 export { default as Feature } from "./feature/feature";
 export { default as CTA } from "./CTA/CTA";
+export { default as Article } from "./article/article";

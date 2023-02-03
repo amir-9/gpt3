@@ -19,6 +19,7 @@ function App() {
       <Future />
       <RequestAccess />
       <CTA />
+      <Blog />
     </div>
   );
 }

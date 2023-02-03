@@ -1,0 +1,48 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background: #042c54;
+}
+
+.article__image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.article__image {
+  width: 100%;
+}
+
+.article__content {
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  flex: 1;
+}
+
+.article__date {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.article__header {
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.article__link {
+  display: flex;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #ffffff;
+  justify-self: end;
+}
