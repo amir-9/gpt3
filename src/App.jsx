@@ -20,6 +20,7 @@ function App() {
       <RequestAccess />
       <CTA />
       <Blog />
+      <Footer />
     </div>
   );
 }

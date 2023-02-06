@@ -1,0 +1,100 @@
+.footer {
+  background: #031b34;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__cta {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 115px;
+  margin-bottom: 180px;
+}
+
+.footer__cta-header {
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  margin-bottom: 4rem;
+  max-width: 830px;
+}
+
+.footer__cta-button {
+  cursor: pointer;
+  width: fit-content;
+  font-size: 18px;
+  line-height: 21px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: inherit;
+  padding: 1rem 1.5rem;
+  transition: all ease 100ms;
+}
+.footer__cta-button:hover {
+  border-color: #d885a3;
+  color: #d885a3;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  margin-bottom: 63px;
+}
+.footer__logo {
+  flex: 2;
+}
+
+.footer__links {
+  flex: 3;
+}
+
+.footer__logo-image {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.footer__logo-address {
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+  max-width: 170px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.footer__col-header {
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 36px;
+}
+
+.footer__col-item {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 26px;
+  max-width: 120px;
+}
+
+.footer__cw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -45px;
+}
+
+.footer__cw-text {
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+}

@@ -2,6 +2,7 @@
   display: flex;
   align-items: start;
   flex-direction: column;
+  margin-bottom: 154px;
 }
 
 .blog__header {
