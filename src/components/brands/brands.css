@@ -1,13 +1,27 @@
 .brands {
   display: flex;
   justify-content: center;
+}
+
+.brands__container {
+  display: flex;
+  justify-content: center;
   gap: 46px;
   align-items: center;
   margin-bottom: 8rem;
+  margin-top: 2rem;
   position: relative;
   z-index: 5;
+  width: 100%;
+  flex-wrap: wrap;
 }
+
 .brands img {
   height: 24.15px;
   width: auto;
+}
+@media screen and (max-width: 425px) {
+  .brands img {
+    height: 20px;
+  }
 }

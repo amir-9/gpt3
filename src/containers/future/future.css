@@ -67,3 +67,36 @@
   background: #07325f;
   filter: blur(282px);
 }
+
+@media screen and (max-width: 768px) {
+  .future {
+    flex-direction: column;
+    justify-content: start;
+    gap: 4rem;
+  }
+  .future__header-text {
+    font-size: 30px;
+    max-width: 100%;
+  }
+
+  .future__content-container {
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .future__content-item {
+    width: 45%;
+    margin-bottom: 4rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .future__header-text {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .future__content-item {
+    width: 100%;
+  }
+}

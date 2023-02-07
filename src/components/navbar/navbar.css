@@ -16,8 +16,8 @@
 }
 
 .header__logo img {
-  width: 100%;
-  height: 100%;
+  width: 62.56px;
+  height: 16.02px;
 }
 
 .header__menu {
@@ -51,4 +51,63 @@
 
 .header__button-signUp {
   padding: 0.75rem 1.5rem;
+}
+
+.header__nav-desktop {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-phone {
+  display: none;
+}
+.header__menu-mobile .header__menu {
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: end;
+  background: var(--color-footer);
+  padding: 1rem 2rem;
+  position: absolute;
+  right: 4rem;
+  top: 40px;
+  margin-top: 1rem;
+  min-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.mobile-show-on {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header__nav-desktop {
+    display: none;
+  }
+  .header__nav {
+    justify-content: space-between;
+  }
+
+  .header__nav-phone-icon {
+    margin-left: 2rem;
+  }
+
+  .header__nav-phone {
+    display: flex;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header__login {
+    display: none;
+  }
+  .mobile-show-on {
+    display: block;
+  }
+  .header__button-signUp {
+    background: none;
+    padding: 0;
+    color: #ff4820;
+  }
 }

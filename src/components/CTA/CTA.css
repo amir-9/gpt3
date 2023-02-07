@@ -38,3 +38,25 @@
   padding: 0 2rem;
   height: 59px;
 }
+
+@media screen and (max-width: 768px) {
+  .cta__container {
+    flex-direction: column;
+    align-items: inherit;
+    gap: 2rem;
+  }
+
+  .cta__content-header {
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cta__content-header {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .cta__container {
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+}

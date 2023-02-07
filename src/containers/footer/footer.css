@@ -91,10 +91,53 @@
   justify-content: center;
   align-items: center;
   margin-bottom: -45px;
+  width: 100%;
 }
 
 .footer__cw-text {
   font-size: 12px;
   line-height: 14px;
   font-feature-settings: "liga" off;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__cta-header {
+    font-size: 52px;
+  }
+
+  .footer__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  .footer__logo {
+    display: flex;
+    gap: 2rem;
+  }
+  .footer__links {
+    width: 100%;
+  }
+  .footer__cw {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer__cta-header {
+    font-size: 38px;
+    line-height: 50px;
+    margin-bottom: 3rem;
+  }
+  .footer__cta-button {
+    font-size: 16px;
+  }
+  .footer__logo-image {
+    width: 100px;
+  }
+  .footer__links {
+    gap: 0.5rem;
+  }
+  .footer__col-item {
+    font-size: 10px;
+  }
 }

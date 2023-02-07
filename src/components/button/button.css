@@ -8,4 +8,10 @@
   font-size: 18px;
   line-height: 25px;
   cursor: pointer;
+  width: max-content;
+}
+@media screen and (max-width: 768px) {
+  .button {
+    font-size: 17px;
+  }
 }

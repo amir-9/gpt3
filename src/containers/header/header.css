@@ -1,12 +1,13 @@
 .header {
   position: relative;
+  overflow-x: clip;
 }
 
 .header-background-gradient {
   position: absolute;
-  width: 1013px;
-  height: 1013px;
-  left: -336px;
+  width: 50vw;
+  height: 50vw;
+  left: -33vw;
   top: -305px;
   background: #002853;
   filter: blur(282px);
@@ -16,7 +17,7 @@
   position: absolute;
   width: 701px;
   height: 496px;
-  left: 1127px;
+  right: -20vw;
   top: 500px;
 
   background: #072d56;

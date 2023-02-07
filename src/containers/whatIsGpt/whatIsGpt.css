@@ -82,3 +82,40 @@
   filter: blur(100px);
   z-index: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .wgpt__header-container {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .wgpt__header {
+    font-size: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .wgpt__descriptions {
+    flex-direction: column;
+  }
+
+  .wgpt__description-item .feature__header {
+    margin-bottom: 0;
+  }
+
+  .wgpt__description-item {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .wgpt__content-container {
+    padding: 2rem 1rem;
+  }
+  .wgpt__header {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .wgpt__link {
+    font-size: 14px;
+  }
+}

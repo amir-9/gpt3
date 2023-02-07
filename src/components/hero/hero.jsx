@@ -5,7 +5,7 @@ import people from "../../assets/people.png";
 
 const Hero = () => (
   <section className="header__hero section__padding">
-    <div className="header__desc">
+    <div className="header__description">
       <h1 className="header__heading text-gradient">
         Let’s Build Something amazing with GPT-3 OpenAI
       </h1>

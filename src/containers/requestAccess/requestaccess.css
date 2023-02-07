@@ -55,3 +55,27 @@
   line-height: 30px;
   color: #ff8a71;
 }
+
+@media screen and (max-width: 768px) {
+  .access {
+    flex-direction: column;
+  }
+  .access__content {
+    margin-top: 4rem;
+  }
+
+  .access__header {
+    font-size: 30px;
+  }
+
+  .access__content-text {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .access__cta-2 {
+    font-size: 14px;
+  }
+  .access__cta-1 {
+    display: none;
+  }
+}
